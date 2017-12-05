@@ -26,7 +26,9 @@ https://askubuntu.com/questions/842256/nvidia-driver-install-ubuntu-16-04 (link 
 
 `sudo update-initramfs -u`
 
-cd /Downloads && chmod +x NVIDIA-Linux-*-346.35.run && sudo sh NVIDIA-Linux-*-361.42.run
+then proceed with:
+
+`cd /Downloads && chmod +x NVIDIA-Linux-*-346.35.run && sudo sh NVIDIA-Linux-*-361.42.run`
 
 ` ERROR: You appear to be running an X server; please exit X before installing.  For further details, please see the section INSTALLING THE NVIDIA DRIVER in the README available on the Linux driver download page at www.nvidia.com.`
 https://unix.stackexchange.com/questions/25668/how-to-close-x-server-to-avoid-errors-while-updating-nvidia-driver         
