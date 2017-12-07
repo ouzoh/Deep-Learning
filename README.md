@@ -39,3 +39,14 @@ https://unix.stackexchange.com/questions/25668/how-to-close-x-server-to-avoid-er
 **To resume:**
 
 `sudo init 5`
+
+How to Find if Linux is Running on 32-bit or 64-bit?
+`uname -a`
+
+`uname -m`
+
+`arch`
+https://www.fastwebhost.in/blog/how-to-find-if-linux-is-running-on-32-bit-or-64-bit/
+
+Resource for ins
+https://blog.slavv.com/the-1700-great-deep-learning-box-assembly-setup-and-benchmarks-148c5ebe6415
