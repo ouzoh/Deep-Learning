@@ -5,13 +5,13 @@ Deep Learning Exploration
 ## Software Setup
 
 ### Build
-1. [Motherboard](https://www.amazon.com/dp/B01MY5KXW8) $80 (Central Nervous System)
-2. [Case](https://www.amazon.com/gp/product/B00M2UKGSM) $40 (Skeleton)
-3. [Ram](https://www.amazon.com/gp/product/B01HKF3T8C) (Short Term Memory like Pre-frontal Lobe) $203
-4. [CPU](https://www.amazon.com/gp/product/B0136JONRM) $214.91 ($229) (where tasks are performed like your brain)
-5. [Hard Drive 4T](https://www.amazon.com/gp/product/B013HNYV8I) + data recovery plan (long term memory like Hippocampus) $130
-6. [GTX 1070 Ti 8GB](https://www.amazon.com/dp/B076S4RH6K) (generates output images to display - similar to eye) $499
-7. [Power Supply](https://www.amazon.com/gp/product/B00MAZK6IO) (Heart) $77
+1. [Motherboard](https://www.amazon.com/dp/B01MY5KXW8) `Central Nervous System` $80
+2. [Case](https://www.amazon.com/gp/product/B00M2UKGSM) `Skeleton` $40
+3. [Ram](https://www.amazon.com/gp/product/B01HKF3T8C) `Short Term Memory like Pre-frontal Lobe` $203
+4. [CPU](https://www.amazon.com/gp/product/B0136JONRM) `Brain: perform tasks` $229
+5. [Hard Drive 4T](https://www.amazon.com/gp/product/B013HNYV8I) + data recovery plan `long term memory like Hippocampus` $130
+6. [GTX 1070 Ti 8GB](https://www.amazon.com/dp/B076S4RH6K) `Eye: generate/compute output images to display` $499
+7. [Power Supply](https://www.amazon.com/gp/product/B00MAZK6IO) `Heart` $77
 8. [Heat Sink](https://www.amazon.com/gp/product/B005O65JXI) $30
 
 ### Install Ubuntu
