@@ -33,9 +33,9 @@ Deep Learning Exploration
 ### Install GPU Driver
 1. [Install Nvidia driver](http://www.techradar.com/how-to/computing/how-to-install-and-configure-graphics-drivers-in-linux-1327223)
 
-#### Troubleshooting GPU Install
+### Troubleshooting GPU Install
 ---
-*If you get below error:*
+1. If you get below error:
 <!-- language: text -->
     The distribution-provided pre-install script failed!  
     Are you sure you want to continue?
@@ -51,7 +51,7 @@ Then proceed with:
     chmod +x NVIDIA-Linux-\*-346.35.run
     sudo sh NVIDIA-Linux-\*-361.42.run
 ---
-*If you get below error:*
+2. If you get below error:
 <!-- language: text -->
     ERROR: You appear to be running an X server; please exit X before installing.  
     For further details, please see the section INSTALLING THE NVIDIA DRIVER in 
