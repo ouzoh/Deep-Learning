@@ -48,8 +48,8 @@ If you get below error:
 Then proceed with:
 <!-- language: bash -->
     cd /Downloads
-    chmod +x NVIDIA-Linux-\*-346.35.run
-    sudo sh NVIDIA-Linux-\*-361.42.run
+    chmod +x NVIDIA-Linux-*-384.90.run
+    sudo sh NVIDIA-Linux-*-384.90.run
 ---
 If you get below error:
 <!-- language: text -->
