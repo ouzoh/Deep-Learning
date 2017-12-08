@@ -30,22 +30,30 @@ Deep Learning Exploration
 <!-- language: text -->
     Ctrl + Alt + F2
 
-### 2. Install GPU Driver
-INSTALL NVIDIA
-http://www.techradar.com/how-to/computing/how-to-install-and-configure-graphics-drivers-in-linux-1327223
+### Install GPU Driver
+1. [Install Nvidia driver](http://www.techradar.com/how-to/computing/how-to-install-and-configure-graphics-drivers-in-linux-1327223)
 
-`The distribution-provided pre-install script failed!  
-Are you sure you want to continue?`
+#### Troubleshooting GPU Install
+1. If you get below error:
+<!-- language: text -->
+    The distribution-provided pre-install script failed!  
+    Are you sure you want to continue?
 
-https://askubuntu.com/questions/842256/nvidia-driver-install-ubuntu-16-04 (link with above question)
+[Try](https://askubuntu.com/questions/842256/nvidia-driver-install-ubuntu-16-04):
+<!-- language: bash -->
+    sudo update-initramfs -u
+ 
+Then proceed with:
+<!-- language: bash -->
+    cd /Downloads
+    chmod +x NVIDIA-Linux-\*-346.35.run
+    sudo sh NVIDIA-Linux-\*-361.42.run
 
-`sudo update-initramfs -u`
-
-then proceed with:
-
-`cd /Downloads && chmod +x NVIDIA-Linux-*-346.35.run && sudo sh NVIDIA-Linux-*-361.42.run`
-
-` ERROR: You appear to be running an X server; please exit X before installing.  For further details, please see the section INSTALLING THE NVIDIA DRIVER in the README available on the Linux driver download page at www.nvidia.com.`
+2. If you get below error:
+<!-- language: text -->
+    ERROR: You appear to be running an X server; please exit X before installing.  
+    For further details, please see the section INSTALLING THE NVIDIA DRIVER in 
+    the README available on the Linux driver download page at www.nvidia.com.
 https://unix.stackexchange.com/questions/25668/how-to-close-x-server-to-avoid-errors-while-updating-nvidia-driver         
 **To stop:**
 
