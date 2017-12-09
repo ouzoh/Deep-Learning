@@ -46,7 +46,9 @@ See [Install Nvidia driver](http://www.techradar.com/how-to/computing/how-to-ins
     sudo dpkg -i cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
     sudo apt-get update
     sudo apt-get -y install cuda
-    sudo modprobe nvidia
+    sudo apt-get install cuda-toolkit-8.0
+    ~~sudo modprobe nvidia~~
+    reboot
     nvidia-smi
 
 ### Install Anaconda
