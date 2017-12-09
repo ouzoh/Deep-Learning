@@ -40,7 +40,7 @@ Since this project is centred on fastai course, Ubuntu 16.04 LTS (Long Term Supp
     sudo apt-get --assume-yes install software-properties-common
 
 ### Download and Install GPU Driver
-1. [Install Nvidia driver](http://www.techradar.com/how-to/computing/how-to-install-and-configure-graphics-drivers-in-linux-1327223)
+See [Install Nvidia driver](http://www.techradar.com/how-to/computing/how-to-install-and-configure-graphics-drivers-in-linux-1327223) for alternative resource.
 <!-- language: bash -->
     wget "http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.44-1_amd64.deb" -O "cuda-repo-ubuntu1604_8.0.44-1_amd64.deb"
     sudo dpkg -i cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
@@ -91,7 +91,7 @@ Since this project is centred on fastai course, Ubuntu 16.04 LTS (Long Term Supp
     sudo cp lib64/* /usr/local/cuda/lib64/
     sudo cp include/* /usr/local/cuda/include/
 
-### configure jupyter and prompt for password
+### configure jupyter
 jupyter notebook --generate-config
 
 ### Troubleshooting GPU Install
