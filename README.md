@@ -61,6 +61,12 @@ See [Install Nvidia driver](http://www.techradar.com/how-to/computing/how-to-ins
     conda upgrade -y --all
 
 ### Create a virtual environment
+<!-- language: bash -->
+    pip install virtualenv
+    virtualenv --version
+    cd Deep-Learning/fastai/
+    virtualenv fastai
+    source fastai/bin/activate
 
 ### Install theano
 <!-- language: bash -->
