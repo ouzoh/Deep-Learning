@@ -66,6 +66,8 @@ See [Install Nvidia driver](http://www.techradar.com/how-to/computing/how-to-ins
 <!-- language: bash -->
     pip install virtualenv
     virtualenv --version
+    cd
+    mkdir -p Deep-Learning/fastai/
     cd Deep-Learning/fastai/
     virtualenv fastai
     source fastai/bin/activate
